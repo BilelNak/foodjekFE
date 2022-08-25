@@ -1,0 +1,35 @@
+<div class="container">
+    <legend>Create Item</legend>
+    <form>
+
+        <div class="mb-3">
+            <label for="txtPrice" class="form-label">Id</label>
+            <input type="number" name="id" [(ngModel)] = "livreurForm.id" class="form-control" id="txtId" />
+          </div>
+
+      <div class="mb-3">
+        <label for="txtName" class="form-label">Name</label>
+        <input type="text" name="name" [(ngModel)] = "livreurForm.name" class="form-control" id="txtName" />
+      </div>
+
+      <div class="mb-3">
+        <label for="txtName" class="form-label">Name</label>
+        <input type="text" name="email" [(ngModel)] = "livreurForm.email" class="form-control" id="txtAdress" />
+      </div>
+      <div class="mb-3">
+        <label for="txtName" class="form-label">Name</label>
+        <input type="text" name="phone" [(ngModel)] = "livreurForm.phone" class="form-control" id="txtPhone" />
+      </div>
+      <div class="mb-3">
+        <label for="txtName" class="form-label">Name</label>
+        <input type="text" name="lattitude" [(ngModel)] = "livreurForm.lattitude" class="form-control" id="txtEmail" />
+      </div>
+      <div class="mb-3">
+        <label for="txtName" class="form-label">Name</label>
+        <input type="text" name="longitude" [(ngModel)] = "livreurForm.longitude" class="form-control" id="txtContact" />
+      </div>
+
+      <button type="button" (click)="create()" class="btn btn-primary">Create</button>
+    </form>
+  </div>
+

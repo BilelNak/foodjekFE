@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RestaurantsModule } from './restaurants/restaurants.module';
 import { HttpClientModule } from '@angular/common/http';
+import { LivreursModule } from './livreurs/livreurs.module';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -13,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     RestaurantsModule,
+    LivreursModule,
     HttpClientModule
   ],
   providers: [],
